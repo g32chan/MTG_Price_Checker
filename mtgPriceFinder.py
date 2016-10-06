@@ -3,11 +3,12 @@
 # Magic: the Gathering Card Price Checker
 #
 # Author(s):    Gary Chan
-# Version:      1.2.2
+# Version:      1.2.3
 #
 # Version History:
 # Date          Version     Change
-# 31/01/16      1.2.2       Move sites to array for rearranging
+# 18/09/16      1.2.3       Updated URL for Card Kingdom
+# 31/01/16      1.2.2       Moved sites to array for rearranging
 # 20/06/15      1.2.1       Re-added TimeVaultGames
 #                           Changed timer constant
 #                           Fixed split cards for Card Kingdom
@@ -44,7 +45,7 @@ sites = ['http://magic.tcgplayer.com/db/magic_single_card.asp?cn=',
          'http://www.magicstronghold.com/products/search?query=',
          'http://www.facetofacegames.com/products/search?query=',
          'http://sales.starcitygames.com/search.php?substring=',
-         'http://cardkingdom.com/catalog/view?search=basic&filter[name]=']
+         'http://cardkingdom.com/catalog/search?search=header&filter[name]=']
 
 # Input class for input
 class Input(object):
